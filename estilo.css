@@ -2,8 +2,18 @@ body{
 	background-color: rgb(233,233,233);
 }
 nav{
+	
 }
 nav ul{
 	display: flex;
+	padding:20px;
 	justify-content: space-between;
+}
+
+#paragrafoAzul{
+	color: blue;
+}
+
+.vermelho{
+	color: red;
 }
