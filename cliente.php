@@ -12,29 +12,25 @@ class Cliente {
     //Construtor
 
     // Construtor com valores pre-estabelecidos vazios
-    function Cliente(){
+    function __construct(){
         $this->id = 0;
         $this->nome = "";
         $this->email = "";
         $this->telefone = "";
         $this->dataCadastro = "";
+        echo "Criei um objeto da classe ".__CLASS__
     }
 
-    function Cliente(int $pId, string $pNome, string $pTelefone, string $pEmail, string $pCadastro){
-        $this->id = $pId;
-        $this->nome = $pNome;
-        $this->email = $pEmail;
-        $this->telefone = $pTelefone;
-        $this->dataCadastro = $pCadastro;
-    }
-
+   
     // Gets
     function GetId(){
         return $this->id;
     }
 
     //Sets
-    function SetId(){
-        return $this->id;
+    function SetId(int $pId){
+         $this->id = $pId;
     }
 }
+
+$cliente1 = new Cliente;
