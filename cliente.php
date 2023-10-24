@@ -18,7 +18,7 @@ class Cliente {
         $this->email = "";
         $this->telefone = "";
         $this->dataCadastro = "";
-        echo "Criei um objeto da classe ".__CLASS__
+        echo "Criei um objeto da classe ".__CLASS__;
     }
 
    
